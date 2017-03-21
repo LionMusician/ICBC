@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ICBC</title>
+		<link rel="stylesheet" type="text/css" href="uls.css">
+	</head>
+	<body>
+		<div class="box">
+			<img src="img/flag01.png" class="flag01">
+			<img src="img/flag02.png" class="flag02">
+
+			<ul id="nav" class="clearfix">
+				<li><span>个人网上银行</span></li>
+				<li class="db"><span>快捷服务</span></li>
+				<li><span>金融信息</span></li>
+			</ul>
+			<div id="icon">
+				<ul id="img_list1" class="clearfix png_list">
+					<a href=""><li id="p11">银行卡</li></a>
+					<a href=""><li id="p12">转账汇款</li></a>
+					<a href=""><li id="p13">存款</li></a>
+					<a href=""><li id="p14">贷款</li></a>
+					<a href=""><li id="p15">理财</li></a>
+					<a href=""><li id="p16">基金</li></a>
+					<a href=""><li id="p17">贵金属</li></a>
+					<a href=""><li id="p18">注册</li></a>
+					<a href=""><li id="p19">我的网银</li></a>
+				</ul>
+				<ul id="img_list2" class="clearfix png_list">
+					<a href=""><li id="p21">手机银行注册</li></a>
+					<a href=""><li id="p22">工银e支付</li></a>
+					<a href=""><li id="p23">工银融e联</li></a>
+					<a href=""><li id="p24">工银e缴费</li></a>
+					<a href=""><li id="p25">工银e投资</li></a>
+					<a href=""><li id="p26">客户服务</li></a>
+					<a href=""><li id="p27">网上申请</li></a>
+					<a href=""><li id="p28">开户网点查询</li></a>
+					<a href=""><li id="p29">业务验证</li></a>
+				</ul>
+				<ul id="img_list3" class="clearfix png_list">
+					<a href=""><li id="p31">外汇牌价</li></a>
+					<a href=""><li id="p32">存款利率</li></a>
+					<a href=""><li id="p33">贷款利率</li></a>
+					<a href=""><li id="p34">贵金属行情</li></a>
+					<a href=""><li id="p35">服务价目表</li></a>
+					<a href=""><li id="p36">理财计算器</li></a>
+					<a href=""><li id="p37">基金行情</li></a>
+					<a href=""><li id="p38">商品交易行情</li></a>
+					<a href=""><li id="p39">章程协议</li></a>
+				</ul>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var spans=nav.getElementsByTagName("span");
+			var uls=icon.getElementsByTagName("ul");
+
+			for(var i=1;i<uls.length;i++){
+				uls[i].style.display="none";
+			}
+
+			for(var i=0;i<spans.length;i++){
+				spans[i].index=i;
+				spans[i].onmouseover=function(){
+					/*this.style["font-weight"]="bold";
+					this.style["border-bottom"]="2px solid #C7000A";*/
+
+					for(var j=0;j<uls.length;j++){
+						uls[j].style["display"]="none";
+						/*if(j==this.index){
+							uls[j].style["display"]="block";
+						}*/
+						spans[j].className="";
+					}
+					uls[this.index].style.display="block";
+					this.className="hover";
+				}
+				/*spans[i].onmouseout=function(){
+					this.style["font-weight"]="";
+					this.style["border-bottom"]="none";
+				}*/
+			}
+		</script>
+	</body>
+</html>

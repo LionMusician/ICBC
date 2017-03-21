@@ -1,0 +1,72 @@
+*{margin: 0;padding: 0;}
+.clearfix{*zoom=1;}
+.clearfix:after{display: table;content: "";clear: both;}
+body{width: 960px;margin: 90px auto;background-color: #D3D3D3;font-family: 宋体;}
+.box{width: 960px;height: 184px;background: url(img/mainboxbg.gif);position: relative;}
+.flag01{position: absolute;top: -2px;left: -2px;}
+.flag02{position: absolute;top: 120px;left: 947px;}
+ul{list-style: none;}
+#nav{padding-top: 20px;padding-left: 10px;margin-bottom: 24px;}
+#nav li{font-size: 14px;float: left;padding-left: 18px;padding-right: 18px;}
+.db{border-left: 1px solid #999;border-right: 1px solid #999;}
+span{padding-bottom: 12px;}
+span.hover{font-weight: bold;border-bottom: 2px solid #C7000A;}
+.png_list{width: 938px;height: 105px;margin: 15px 11px 0 11px;}
+.png_list li{width: 80px;height: 23px;float: left;font-size: 12px;text-align: center;margin:12px;padding-top: 65px;}
+.png_list a li{color: #333;}
+.png_list a:hover li{color: red;}
+
+#img_list1{display: block;}
+#img_list2{display: none;}
+#img_list3{display: none;}
+
+#p11{background: url(img/icon11.gif) no-repeat top center;}
+#p12{background: url(img/icon12.gif) no-repeat top center;}
+#p13{background: url(img/icon13.gif) no-repeat top center;}
+#p14{background: url(img/icon14.gif) no-repeat top center;}
+#p15{background: url(img/icon15.gif) no-repeat top center;}
+#p16{background: url(img/icon16.gif) no-repeat top center;}
+#p17{background: url(img/icon17.gif) no-repeat top center;}
+#p18{background: url(img/icon18.gif) no-repeat top center;}
+#p19{background: url(img/icon19.gif) no-repeat top center;}
+
+#p21{background: url(img/icon21.gif) no-repeat top center;}
+#p22{background: url(img/icon22.gif) no-repeat top center;}
+#p23{background: url(img/icon23.gif) no-repeat top center;}
+#p24{background: url(img/icon24.gif) no-repeat top center;}
+#p25{background: url(img/icon25.gif) no-repeat top center;}
+#p26{background: url(img/icon26.gif) no-repeat top center;}
+#p27{background: url(img/icon27.gif) no-repeat top center;}
+#p28{background: url(img/icon28.gif) no-repeat top center;}
+#p29{background: url(img/icon29.gif) no-repeat top center;}
+
+#p31{background: url(img/icon31.gif) no-repeat top center;}
+#p32{background: url(img/icon32.gif) no-repeat top center;}
+#p33{background: url(img/icon33.gif) no-repeat top center;}
+#p34{background: url(img/icon34.gif) no-repeat top center;}
+#p35{background: url(img/icon35.gif) no-repeat top center;}
+#p36{background: url(img/icon36.gif) no-repeat top center;}
+#p37{background: url(img/icon37.gif) no-repeat top center;}
+#p38{background: url(img/icon38.gif) no-repeat top center;}
+#p39{background: url(img/icon39.gif) no-repeat top center;}
+
+
+.png_list a:hover #p21{background: url(img/icon211.gif) no-repeat top center;}
+.png_list a:hover #p22{background: url(img/icon222.gif) no-repeat top center;}
+.png_list a:hover #p23{background: url(img/icon233.gif) no-repeat top center;}
+.png_list a:hover #p24{background: url(img/icon244.gif) no-repeat top center;}
+.png_list a:hover #p25{background: url(img/icon255.gif) no-repeat top center;}
+.png_list a:hover #p26{background: url(img/icon266.gif) no-repeat top center;}
+.png_list a:hover #p27{background: url(img/icon277.gif) no-repeat top center;}
+.png_list a:hover #p28{background: url(img/icon288.gif) no-repeat top center;}
+.png_list a:hover #p29{background: url(img/icon299.gif) no-repeat top center;}
+
+.png_list a:hover #p31{background: url(img/icon311.gif) no-repeat top center;}
+.png_list a:hover #p32{background: url(img/icon322.gif) no-repeat top center;}
+.png_list a:hover #p33{background: url(img/icon333.gif) no-repeat top center;}
+.png_list a:hover #p34{background: url(img/icon344.gif) no-repeat top center;}
+.png_list a:hover #p35{background: url(img/icon355.gif) no-repeat top center;}
+.png_list a:hover #p36{background: url(img/icon366.gif) no-repeat top center;}
+.png_list a:hover #p37{background: url(img/icon377.gif) no-repeat top center;}
+.png_list a:hover #p38{background: url(img/icon388.gif) no-repeat top center;}
+.png_list a:hover #p39{background: url(img/icon399.gif) no-repeat top center;}
